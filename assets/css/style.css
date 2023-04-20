@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #b6e388;
+}
+
+.navbar .logo {
+  margin-top: 10px;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar .menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .item {
+  margin: 0 20px;
+}
+
+.navbar .link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: color 0.2s ease;
+}
+
+.navbar .link:hover {
+  color: #5e5f60;
+}
+
+.hero {
+  background-color: #b6e388;
+}
+
+.hero .container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.hero .container .deskripsi {
+  width: 50%;
+}
+
+.hero .container .deskripsi h4 {
+  width: fit-content;
+  margin-top: -50px;
+  font-weight: 600;
+  font-size: 25px;
+  border-bottom: 1px solid #fff7f7;
+  color: #fff7f7;
+  padding-bottom: 5px;
+}
+
+.hero .container .deskripsi h1 {
+  margin-top: -10px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.btn-hero {
+  width: 200px;
+  background-color: #0fa958;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.btn-hero:hover {
+  background-color: #0cd469;
+}
+
+.hero .container .gambar {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.about {
+  margin-top: -60px;
+  padding-top: 10px;
+}
+
+.about .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: #0fa958;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.product {
+  margin-top: 100px;
+  display: flex;
+  height: 350px;
+}
+
+.product .container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #b6e388;
+}
+
+.product .pembungkus {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.product .gambar {
+  width: 50%;
+}
+
+.product .gambar img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-product {
+  margin-top: 10px;
+  width: 250px;
+  background-color: #0fa958;
+  color: white;
+  padding: 7px 0px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.btn-product:hover {
+  background-color: #0cd469;
+}
+
+.product h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff7f7;
+}
+
+.product p {
+  font-size: 15px;
+  color: #646464;
+}
+
+.fitur {
+  margin-top: 70px;
+  padding-top: 10px;
+}
+
+.fitur .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fitur .container h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: #0fa958;
+}
+
+.fitur .container p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.fitur .container .pembungkus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fitur .container .pembungkus .card {
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fitur .container .pembungkus .card .bulat {
+  width: 100px;
+  height: 100px;
+  background: #0fa958;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fitur .container .pembungkus h5 {
+  margin: 0;
+  margin-top: 20px;
+  color: #0fa958;
+  font-size: 16px;
+}
+.fitur .container .pembungkus h3 {
+  margin: 0;
+  margin-top: 10px;
+}
+.fitur .container .pembungkus p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.team {
+  margin-top: 80px;
+  padding: 60px 0;
+  background-color: #b6e388;
+}
+
+.team .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.team .container h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: #0fa958;
+}
+
+.team .container p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.team .container .profil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team .container .profil .card {
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team .container .profil .card .bulat {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .container .profil h3 {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.team .container .profil p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: -20px;
+  padding-top: 10px;
+}
+
+.contact .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact .container h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: #0fa958;
+}
+
+.contact .container p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact .container .pembungkus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .container .pembungkus .gambar {
+  width: 45%;
+}
+
+.contact .container .pembungkus .form {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.contact .container .pembungkus .form .item-form {
+  margin-bottom: 20px;
+}
+
+.contact .container .pembungkus .form .item-form .input {
+  width: 100%;
+  height: 30px;
+  background-color: #e0fcdc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact .container .pembungkus .form .item-form .input-textarea {
+  width: 100%;
+  height: 100px;
+  background-color: #e0fcdc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.button-form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form {
+  width: 130px;
+  background-color: #0fa958;
+  color: white;
+  padding: 6px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.btn-form:hover {
+  background-color: #0cd469;
+}
+
+footer {
+  background-color: #b6e388;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+footer .container .copyright {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .sosmed {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+footer .container .sosmed .icon {
+  margin-right: 30px;
+  text-decoration: none;
+  width: 8%;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+
+  .hero .container {
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero .container .gambar {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .container .gambar img {
+    width: 80%;
+  }
+
+  .hero .container .deskripsi {
+    width: 100%;
+    order: 2;
+  }
+
+  .hero .container .deskripsi h4 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .hero .container .deskripsi h1 {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .btn-hero {
+    width: 150px;
+    padding: 7px 10px;
+    border-radius: 40px;
+    font-size: 15px;
+  }
+
+  .about {
+    margin-top: -30px;
+  }
+
+  .about .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about h2 {
+    font-size: 25px;
+  }
+
+  .about p {
+    text-align: justify;
+    font-size: 13px;
+  }
+
+  .product {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .product .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b6e388;
+  }
+
+  .product .pembungkus {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .product .gambar {
+    width: 100%;
+  }
+
+  .product .gambar img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn-product {
+    margin-top: 10px;
+    width: 180px;
+    padding: 6px 0px;
+    border-radius: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .product h3 {
+    font-size: 20px;
+  }
+
+  .product p {
+    font-size: 13px;
+  }
+
+  .fitur {
+    margin-top: 30px;
+  }
+  
+  .fitur .container h2 {
+    font-size: 25px;
+  }
+  
+  .fitur .container p {
+    font-size: 14px;
+  }
+  
+  .fitur .container .pembungkus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .fitur .container .pembungkus .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fitur .container .pembungkus .card .bulat {
+    width: 90px;
+    height: 90px;
+  }
+
+  .fitur .container .pembungkus h3 {
+    text-align: center;
+  }
+  .fitur .container .pembungkus p {
+    text-align: center;
+  }
+  
+  .team {
+    margin-top: 40px;
+    padding: 30px 0;
+  }
+  
+  .team .container h2 {
+    font-size: 25px;
+  }
+  
+  .team .container p {
+    font-size: 14px;
+  }
+  
+  .team .container .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .team .container .profil .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .team .container .profil .card .bulat {
+    width: 90px;
+    height: 90px;
+  }
+
+  .team .container .profil h3 {
+    text-align: center;
+  }
+  
+  .team .container .profil p {
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: -10px;
+  }
+  
+  .contact .container h2 {
+    font-size: 25px;
+  }
+  
+  .contact .container p {
+    font-size: 14px;
+  }
+  
+  .contact .container .pembungkus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .contact .container .pembungkus .gambar {
+    width: 80%;
+  }
+  
+  .contact .container .pembungkus .form {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .contact .container .pembungkus .form .item-form .input {
+    height: 20px;
+    font-size: 16px;
+  }
+  
+  .contact .container .pembungkus .form .item-form .input-textarea {
+    font-size: 16px;
+  }
+  
+  .btn-form {
+    width: 120px;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #b6e388;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  footer .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .container .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  footer .container .logo img {
+    width: 70%;
+  }
+  
+  footer .container .copyright {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .container .copyright p {
+    font-size: 9px;
+  }
+  
+  footer .container .sosmed {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  footer .container .sosmed .icon {
+    width: 15%;
+    margin-right: 10px;
+  }
+}
